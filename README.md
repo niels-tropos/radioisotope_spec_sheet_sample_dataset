@@ -37,7 +37,7 @@ First, you will setup a database, schema and some other  to store all your objec
 
 
 ## Train and Publish Your Document AI Model to Extract Relevant Fields 
-1. Download the pdf dataset from https://github.com/niels-tropos/radioisotope_spec_sheet_sample_dataset
+1. Download the radioisotope_specification_sheet.zip dataset from https://github.com/niels-tropos/radioisotope_spec_sheet_sample_dataset
 
 2. On the left-side, navigate to <strong>AI & ML >> Document AI</strong>
 3. Build a new model <strong>```+ Build```</strong>
@@ -109,7 +109,7 @@ First, you will setup a database, schema and some other  to store all your objec
 
 ## Making the Pipeline More Robuust
 
-1. Luckily for you, all provided PDF files so far were extremely similar in structure. To simulate real world scenarios, download the second (much smaller) PDF dataset that contains other PDF files with similar contents but a very different structure. Without further training your Document AI model, upload one of these files to your stage and observe that output.
+1. Luckily for you, all provided PDF files so far were extremely similar in structure. To simulate real world scenarios, download the second (much smaller) PDF dataset named ```other_sample_dataset.zip``` that contains other PDF files with similar contents but a very different structure. Without further training your Document AI model, upload one of these files to your stage and observe that output.
 
     <strong> Questions: 
     * What do you observe?
